@@ -1,0 +1,28 @@
+{
+    "name": "wuwx/laravel-socialite-alipay",
+    "type": "library",
+    "keywords": ["laravel", "socialite", "alipay"],
+    "description": "",
+    "authors": [
+        {
+            "name": "Wu Weixin",
+            "email": "wuweixin@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/socialite": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wuwx\\LaravelSocialiteAlipay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wuwx\\LaravelSocialiteAlipay\\LaravelSocialiteAlipayServiceProvider"
+            ]
+        }
+    }
+}
